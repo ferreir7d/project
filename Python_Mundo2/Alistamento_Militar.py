@@ -4,6 +4,14 @@ atual = date.today().year #verifica o ano de hoje
 
 nascimento = int(input("Digite o ano que você nasceu: "))
 idade = atual - nascimento
+sexo = str(input("Digite o seu sexo: "))
+
+print("O seu sexo é {}.".format(sexo))
+
+if sexo == "masculino":
+    print("Você é homem, deverá se alistar.")
+else:
+    print("Você é mulher, não precisará de alistamento.")
 
 print("Quem nasceu em {} tem {} anos em {}.".format(nascimento, idade, atual))
 
