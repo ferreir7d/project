@@ -13,3 +13,4 @@ elif opcao == 3:
     print("{} convertido para HEXADECIMAL é igual à {}".format(num, hex(num)))
 else:
     print("opcão inválida, tente novamente!")
+
