@@ -18,3 +18,4 @@ while True:
     soma += numero
 print(f'A soma vale {soma}')
 
+#1
