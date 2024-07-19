@@ -4,8 +4,8 @@
 # numeros.sort() #coloca em ordem.
 # numeros.sort(reverse=True) #coloca em ordem do ultimo para o primeiro
 # numeros.insert(2, 0) #ele adiciona elementos após indicar no index a posição.
-#
-# # numeros.pop()
+
+# numeros.pop(0) #remove um elemento
 # print(numeros)
 
 
@@ -23,17 +23,17 @@
 # for n in nomes:
 #     print(f'{n} lindo.')
 
-# nomes = []
-# nomes.append('Daniel')
-# nomes.append('Aline')
-#
-# for letra, nome in enumerate(nomes):
-#     print(f'Na posição {letra} encontrei {nome}')
-# print('Fim')
-
 nomes = []
-for cont in range(0, 5):
-    nomes.append(int(input('Digite um valor: ')))
+nomes.append('Daniel')
+nomes.append('Aline')
+#
+for letra, nome in enumerate(nomes): #o enumerate pega a chave e o valor, verifica a posicao e o valor
+    print(f'Na posição {letra} encontrei {nome}')
+print('Fim')
+
+# nomes = []
+# for cont in range(0, 5):
+#     nomes.append(int(input('Digite um valor: ')))
 
 # a = [11,2,3,4]
 # b = a
