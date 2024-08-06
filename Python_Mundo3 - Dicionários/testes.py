@@ -57,3 +57,6 @@ for contador in range(0, 3):
     estado['sigla'] = str(input('Sigla do Estado: '))
     brasil.append(estado.copy()) #copy faz uma cópia do elemento quando usa dicionário.
 print(brasil)
+
+pessoas = {'nome': 'Daniel', 'sexo': 'M', 'idade': 22}
+print(f'O {pessoas["nome"]} tem {pessoas["idade"]} anos')
